@@ -15,24 +15,23 @@ The goal of this project is to create a calculator app capable of multiple thing
 
 ## Decision Drivers
 
-- {We do not want out calculator app looking too cluttered.}
-- {We would like the navigation method to be intuitive to allow easy access to all parts of the app.}
+- We do not want out calculator app looking too cluttered.
+- We would like the navigation method to be intuitive to allow easy access to all parts of the app.
 
 ## Considered Options
 
-- {Tabs}
-- {Hamburgers Menu}
-- {Bottom Navigation}
-- {Top Navigation}
-- {Cards for Navigation}
-- {Gesture-Assisted Navigation}
-- {Full Screen Navigation}
-- {3D Touch}
+- Tabs
+- Hamburgers Menu
+- Bottom Navigation
+- Top Navigation
+- Cards for Navigation
+- Gesture-Assisted Navigation
+- Full Screen Navigation
+- 3D Touch
 
 ## Decision Outcome
 
-Chosen option: "{Tabs}", because
-{Tabs aren't too different from a navigation bar, allowing intuitive navigation of the application.}.
+Chosen option: "Tabs", because Tabs aren't too different from a navigation bar, allowing intuitive navigation of the application.
 
 ### Consequences
 
