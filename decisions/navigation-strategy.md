@@ -1,7 +1,6 @@
 ---
 parent: Decisions
-title: Navigation Strategy Solution for Android Calculator App
-
+title: Navigation Strategy Solution
 status: accepted
 date: 2023-10-26
 deciders: Gabriel Leclerc
@@ -20,18 +19,17 @@ The goal of this project is to create a calculator app capable of multiple thing
 
 ## Considered Options
 
-- Tabs
-- Hamburgers Menu
-- Bottom Navigation
-- Top Navigation
-- Cards for Navigation
-- Gesture-Assisted Navigation
-- Full Screen Navigation
-- 3D Touch
+- **Option 1:** Tabs
+- **Option 2:** Hamburgers Menu
+- **Option 3:** Bottom Navigation
+- **Option 4:** Top Navigation
+- **Option 5:** Cards for Navigation
+- **Option 6:** Gesture-Assisted Navigation
+- **Option 7:** Full Screen Navigation
 
 ## Decision Outcome
 
-Chosen option: "Tabs", because Tabs aren't too different from a navigation bar, allowing intuitive navigation of the application while allowing the developers to blend the navigation system into the calculator app seamlessly.
+Chosen option: "**Option 1:** Tabs", because Tabs aren't too different from a navigation bar, allowing intuitive navigation of the application while allowing the developers to blend the navigation system into the calculator app seamlessly.
 
 ### Consequences
 
@@ -42,39 +40,39 @@ Chosen option: "Tabs", because Tabs aren't too different from a navigation bar, 
 
 ## Pros and Cons of the Options
 
-### Tabs
+### Option 1: Tabs
 
 - Good, because it allows for intuitive use of the navigation system as it does not introduce any new concepts to the user.
 - Good, because the navigation system will not take up very much space.
 - Good, because it allows for simple implementation of the navigation strategy.
 - Bad, because it may not be the most efficient use of space.
 
-### Hamburgers Menu
+### Option 2: Hamburgers Menu
 
 - Bad, because not well-known.
 - Good, because it can hide complex navigational systems.
 - Bad, because obscures navigational options. May influence user experience.
 
-### Bottom Navigation
+### Option 3: Bottom Navigation
 
 - Good, because it allows for easy thumb access to the navigation system.
 - Good, because it is well-known.
 - Bad, because it may make the functionality of the app more difficult to access.
 
-### Top Navigation
+### Option 4: Top Navigation
 
 - Good, because it is well-known.
 - Good, because it may make the functionality of the app easy to access.
 - Bad, because phones are getting larger and the top of the screen is becoming harder to reach while operating a mobile device with one hand.
 - Bad, because it is recommended to be used with other navigation strategies.
 
-### Cards for Navigation
+### Option 5: Cards for Navigation
 
 - Good, because it can come in varying shapes and sizes.
 - Bad, because it is not intuitive.
 - Good because it can be personalized.
 
-### Gesture-Assisted Navigation
+### Option 6: Gesture-Assisted Navigation
 
 - Good, because users can swipe quickly in the direction they want to navigate to, allowing for simple navigation.
 - Good, because very well-known and has been popular in past years.
@@ -82,7 +80,7 @@ Chosen option: "Tabs", because Tabs aren't too different from a navigation bar, 
 - Bad, because some users may have difficulty using the navigation system.
 - …
 
-### Full Screen Navigation
+### Option 7: Full Screen Navigation
 
 - Good, because it allows for the organization of large amounts of information in a system.
 - Good, because it can be learned quite quickly.
@@ -98,4 +96,4 @@ options:
 - Flat Navigation
 - Experience-Driven or Content-Driven Navigation.
 
-We will be using Peers Transitions and Flat Navigation as out navigational transitions. As they allow for lateral navigation through similar screens and different categories.
+**Note: ** We will probably using Peers Transitions and/or Flat Navigation as out navigational transitions as they allow for lateral navigation through similar screens and different categories.
