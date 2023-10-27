@@ -1,22 +1,22 @@
 ---
-# Configuration for the Jekyll template "Just the Docs"
 parent: Decisions
-title: ADR Template
-# status: {accepted}
-# date: {2023-10-26}
-# deciders: {Gabriel Leclerc}
+title: Navigation Strategy Solution for Android Calculator App
+
+status: accepted
+date: 2023-10-26
+deciders: Gabriel Leclerc
 ---
 
 # Navigation Strategy
 
 ## Context and Problem Statement
 
-The goal of this project is to create a calculator app capable of multiple things such as arithmetic operations, graphing, and unit conversion.
+The goal of this project is to create a calculator app capable of multiple things such as arithmetic operations, graphing, and unit conversion. The problem is to decide what navigational strategy we should select taking into account user experience.
 
 ## Decision Drivers
 
-- We do not want out calculator app looking too cluttered.
-- We would like the navigation method to be intuitive to allow easy access to all parts of the app.
+- **Screen Space:** We do not want out calculator app looking too cluttered.
+- **Ease of Use:** We would like the navigation method to be intuitive to allow easy access to all parts of the app.
 
 ## Considered Options
 
