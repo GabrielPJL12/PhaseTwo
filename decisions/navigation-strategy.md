@@ -96,4 +96,4 @@ options:
 - Flat Navigation
 - Experience-Driven or Content-Driven Navigation.
 
-**Note: ** We will probably using Peers Transitions and/or Flat Navigation as out navigational transitions as they allow for lateral navigation through similar screens and different categories.
+**Note:** We will probably using Peers Transitions and/or Flat Navigation as out navigational transitions as they allow for lateral navigation through similar screens and different categories.
