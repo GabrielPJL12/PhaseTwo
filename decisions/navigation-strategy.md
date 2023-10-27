@@ -78,7 +78,6 @@ Chosen option: "**Option 1:** Tabs", because Tabs aren't too different from a na
 - Good, because very well-known and has been popular in past years.
 - Neutral, because it may be old-school.
 - Bad, because some users may have difficulty using the navigation system.
-- …
 
 ### Option 7: Full Screen Navigation
 
